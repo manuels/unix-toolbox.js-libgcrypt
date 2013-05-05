@@ -1,4 +1,4 @@
-libgcrypt_la-missing-string.lo: missing-string.c ../config.h \
+libgcrypt_la-missing-string.lo: missing-string.c config.h \
   /home/manuel/lib/emscripten/system/include/libc/stdio.h \
   /home/manuel/lib/emscripten/system/include/libc/_ansi.h \
   /home/manuel/lib/emscripten/system/include/libc/newlib.h \
@@ -36,7 +36,7 @@ libgcrypt_la-missing-string.lo: missing-string.c ../config.h \
   /home/manuel/lib/emscripten/system/include/libc/sys/signal.h \
   gcrypt-module.h types.h ../compat/libcompat.h
 
-../config.h:
+config.h:
 
 /home/manuel/lib/emscripten/system/include/libc/stdio.h:
 

@@ -1,4 +1,4 @@
-libgcrypt_la-visibility.lo: visibility.c ../config.h \
+libgcrypt_la-visibility.lo: visibility.c config.h \
   /home/manuel/lib/emscripten/system/include/libc/stdarg.h g10lib.h \
   /home/manuel/lib/emscripten/system/include/libc/stdio.h \
   /home/manuel/lib/emscripten/system/include/libc/_ansi.h \
@@ -35,7 +35,7 @@ libgcrypt_la-visibility.lo: visibility.c ../config.h \
   /home/manuel/lib/emscripten/system/include/libc/sys/signal.h \
   gcrypt-module.h types.h ../compat/libcompat.h cipher-proto.h
 
-../config.h:
+config.h:
 
 /home/manuel/lib/emscripten/system/include/libc/stdarg.h:
 

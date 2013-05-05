@@ -1,4 +1,4 @@
-libgcrypt_la-module.lo: module.c ../config.h \
+libgcrypt_la-module.lo: module.c config.h \
   /home/manuel/lib/emscripten/system/include/libc/errno.h \
   /home/manuel/lib/emscripten/system/include/libc/sys/errno.h \
   /home/manuel/lib/emscripten/system/include/libc/sys/reent.h \
@@ -37,7 +37,7 @@ libgcrypt_la-module.lo: module.c ../config.h \
   /home/manuel/lib/emscripten/system/include/libc/sys/signal.h \
   gcrypt-module.h types.h ../compat/libcompat.h
 
-../config.h:
+config.h:
 
 /home/manuel/lib/emscripten/system/include/libc/errno.h:
 

@@ -1,4 +1,4 @@
-libgcrypt_la-secmem.lo: secmem.c ../config.h \
+libgcrypt_la-secmem.lo: secmem.c config.h \
   /home/manuel/lib/emscripten/system/include/libc/stdio.h \
   /home/manuel/lib/emscripten/system/include/libc/_ansi.h \
   /home/manuel/lib/emscripten/system/include/libc/newlib.h \
@@ -45,7 +45,7 @@ libgcrypt_la-secmem.lo: secmem.c ../config.h \
   g10lib.h visibility.h gcrypt.h gcrypt-module.h types.h \
   ../compat/libcompat.h secmem.h
 
-../config.h:
+config.h:
 
 /home/manuel/lib/emscripten/system/include/libc/stdio.h:
 

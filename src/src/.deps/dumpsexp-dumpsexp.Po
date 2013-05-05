@@ -1,4 +1,4 @@
-dumpsexp-dumpsexp.o: dumpsexp.c ../config.h \
+dumpsexp-dumpsexp.o: dumpsexp.c config.h \
   /home/manuel/lib/emscripten/system/include/libc/stdio.h \
   /home/manuel/lib/emscripten/system/include/libc/_ansi.h \
   /home/manuel/lib/emscripten/system/include/libc/newlib.h \
@@ -26,7 +26,7 @@ dumpsexp-dumpsexp.o: dumpsexp.c ../config.h \
   /home/manuel/lib/emscripten/system/include/libc/errno.h \
   /home/manuel/lib/emscripten/system/include/libc/sys/errno.h
 
-../config.h:
+config.h:
 
 /home/manuel/lib/emscripten/system/include/libc/stdio.h:
 

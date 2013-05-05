@@ -41,7 +41,7 @@
 #define HAVE_ATEXIT 1
 
 /* Defined if the mlock() call does not work */
-/* #undef HAVE_BROKEN_MLOCK */
+#define HAVE_BROKEN_MLOCK 1
 
 /* Defined if a `byte' is typedef'd */
 /* #undef HAVE_BYTE_TYPEDEF */
@@ -106,10 +106,10 @@
 #define HAVE_MEMORY_H 1
 
 /* Defined if the system supports an mlock() call */
-/* #undef HAVE_MLOCK */
+#define HAVE_MLOCK 0
 
 /* Define to 1 if you have the `mmap' function. */
-#define HAVE_MMAP 1
+#define HAVE_MMAP 0
 
 /* Defined if the GNU Pth is available */
 /* #undef HAVE_PTH */

@@ -1,4 +1,4 @@
-libgcrypt_la-hmac256.lo: hmac256.c ../config.h \
+libgcrypt_la-hmac256.lo: hmac256.c config.h \
   /home/manuel/lib/emscripten/system/include/libc/stdio.h \
   /home/manuel/lib/emscripten/system/include/libc/_ansi.h \
   /home/manuel/lib/emscripten/system/include/libc/newlib.h \
@@ -26,7 +26,7 @@ libgcrypt_la-hmac256.lo: hmac256.c ../config.h \
   /home/manuel/lib/emscripten/system/include/libc/errno.h \
   /home/manuel/lib/emscripten/system/include/libc/sys/errno.h hmac256.h
 
-../config.h:
+config.h:
 
 /home/manuel/lib/emscripten/system/include/libc/stdio.h:
 

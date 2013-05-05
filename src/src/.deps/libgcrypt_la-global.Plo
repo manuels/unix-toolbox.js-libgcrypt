@@ -1,4 +1,4 @@
-libgcrypt_la-global.lo: global.c ../config.h \
+libgcrypt_la-global.lo: global.c config.h \
   /home/manuel/lib/emscripten/system/include/libc/stdio.h \
   /home/manuel/lib/emscripten/system/include/libc/_ansi.h \
   /home/manuel/lib/emscripten/system/include/libc/newlib.h \
@@ -42,7 +42,7 @@ libgcrypt_la-global.lo: global.c ../config.h \
   gcrypt-module.h types.h ../compat/libcompat.h cipher.h \
   ../random/random.h cipher-proto.h stdmem.h secmem.h ath.h
 
-../config.h:
+config.h:
 
 /home/manuel/lib/emscripten/system/include/libc/stdio.h:
 

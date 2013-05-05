@@ -1,4 +1,4 @@
-libgcrypt_la-fips.lo: fips.c ../config.h \
+libgcrypt_la-fips.lo: fips.c config.h \
   /home/manuel/lib/emscripten/system/include/libc/stdio.h \
   /home/manuel/lib/emscripten/system/include/libc/_ansi.h \
   /home/manuel/lib/emscripten/system/include/libc/newlib.h \
@@ -40,7 +40,7 @@ libgcrypt_la-fips.lo: fips.c ../config.h \
   gcrypt-module.h types.h ../compat/libcompat.h ath.h cipher-proto.h \
   hmac256.h
 
-../config.h:
+config.h:
 
 /home/manuel/lib/emscripten/system/include/libc/stdio.h:
 
