@@ -1564,7 +1564,7 @@ configure:14112: $? = 0
 configure:14112: result: yes
 configure:14118: checking for _doprnt
 configure:14118: /home/manuel/lib/emscripten/emcc -o conftest  -fvisibility=hidden -D__QNX__ -I/home/manuel/Projekte/unix-toolbox.js/modules/libgcrypt/src/../../libgpg-error/src/src/  conftest.c  >&5
-/tmp/conftest-dDHcwy.o: In function `main':
+/tmp/conftest-QWJQjW.o: In function `main':
 conftest.c:(.text+0xe): undefined reference to `_doprnt'
 clang: error: linker command failed with exit code 1 (use -v to see invocation)
 configure:14118: $? = 1
@@ -1676,25 +1676,25 @@ conftest.c:75:6: note: 'strcasecmp' is a builtin with type 'int (const char *, c
 1 warning generated.
 configure:14133: $? = 0
 configure:14133: result: yes
-configure:14147: checking for strtoul
-configure:14147: /home/manuel/lib/emscripten/emcc -o conftest  -fvisibility=hidden -D__QNX__ -I/home/manuel/Projekte/unix-toolbox.js/modules/libgcrypt/src/../../libgpg-error/src/src/  conftest.c  >&5
-configure:14147: $? = 0
-configure:14147: result: yes
-configure:14147: checking for memmove
-configure:14147: /home/manuel/lib/emscripten/emcc -o conftest  -fvisibility=hidden -D__QNX__ -I/home/manuel/Projekte/unix-toolbox.js/modules/libgcrypt/src/../../libgpg-error/src/src/  conftest.c  >&5
+configure:14148: checking for strtoul
+configure:14148: /home/manuel/lib/emscripten/emcc -o conftest  -fvisibility=hidden -D__QNX__ -I/home/manuel/Projekte/unix-toolbox.js/modules/libgcrypt/src/../../libgpg-error/src/src/  conftest.c  >&5
+configure:14148: $? = 0
+configure:14148: result: yes
+configure:14148: checking for memmove
+configure:14148: /home/manuel/lib/emscripten/emcc -o conftest  -fvisibility=hidden -D__QNX__ -I/home/manuel/Projekte/unix-toolbox.js/modules/libgcrypt/src/../../libgpg-error/src/src/  conftest.c  >&5
 conftest.c:77:6: warning: incompatible redeclaration of library function 'memmove'
 char memmove ();
      ^
 conftest.c:77:6: note: 'memmove' is a builtin with type 'void *(void *, const void *, unsigned int)'
 1 warning generated.
-configure:14147: $? = 0
-configure:14147: result: yes
-configure:14147: checking for stricmp
-configure:14147: /home/manuel/lib/emscripten/emcc -o conftest  -fvisibility=hidden -D__QNX__ -I/home/manuel/Projekte/unix-toolbox.js/modules/libgcrypt/src/../../libgpg-error/src/src/  conftest.c  >&5
-/tmp/conftest-hKGF9T.o: In function `main':
+configure:14148: $? = 0
+configure:14148: result: yes
+configure:14148: checking for stricmp
+configure:14148: /home/manuel/lib/emscripten/emcc -o conftest  -fvisibility=hidden -D__QNX__ -I/home/manuel/Projekte/unix-toolbox.js/modules/libgcrypt/src/../../libgpg-error/src/src/  conftest.c  >&5
+/tmp/conftest-BBOR4G.o: In function `main':
 conftest.c:(.text+0xe): undefined reference to `stricmp'
 clang: error: linker command failed with exit code 1 (use -v to see invocation)
-configure:14147: $? = 1
+configure:14148: $? = 1
 configure: failed program was:
 | /* confdefs.h */
 | #define PACKAGE_NAME "libgcrypt"
@@ -1788,62 +1788,54 @@ configure: failed program was:
 |   ;
 |   return 0;
 | }
-configure:14147: result: no
-configure:14147: checking for atexit
-configure:14147: /home/manuel/lib/emscripten/emcc -o conftest  -fvisibility=hidden -D__QNX__ -I/home/manuel/Projekte/unix-toolbox.js/modules/libgcrypt/src/../../libgpg-error/src/src/  conftest.c  >&5
-configure:14147: $? = 0
-configure:14147: result: yes
-configure:14147: checking for raise
-configure:14147: /home/manuel/lib/emscripten/emcc -o conftest  -fvisibility=hidden -D__QNX__ -I/home/manuel/Projekte/unix-toolbox.js/modules/libgcrypt/src/../../libgpg-error/src/src/  conftest.c  >&5
-configure:14147: $? = 0
-configure:14147: result: yes
-configure:14161: checking for strerror
-configure:14161: /home/manuel/lib/emscripten/emcc -o conftest  -fvisibility=hidden -D__QNX__ -I/home/manuel/Projekte/unix-toolbox.js/modules/libgcrypt/src/../../libgpg-error/src/src/  conftest.c  >&5
-conftest.c:80:6: warning: incompatible redeclaration of library function 'strerror'
+configure:14148: result: no
+configure:14148: checking for atexit
+configure:14148: /home/manuel/lib/emscripten/emcc -o conftest  -fvisibility=hidden -D__QNX__ -I/home/manuel/Projekte/unix-toolbox.js/modules/libgcrypt/src/../../libgpg-error/src/src/  conftest.c  >&5
+configure:14148: $? = 0
+configure:14148: result: yes
+configure:14163: checking for strerror
+configure:14163: /home/manuel/lib/emscripten/emcc -o conftest  -fvisibility=hidden -D__QNX__ -I/home/manuel/Projekte/unix-toolbox.js/modules/libgcrypt/src/../../libgpg-error/src/src/  conftest.c  >&5
+conftest.c:79:6: warning: incompatible redeclaration of library function 'strerror'
 char strerror ();
      ^
-conftest.c:80:6: note: 'strerror' is a builtin with type 'char *(int)'
+conftest.c:79:6: note: 'strerror' is a builtin with type 'char *(int)'
 1 warning generated.
-configure:14161: $? = 0
-configure:14161: result: yes
-configure:14161: checking for rand
-configure:14161: /home/manuel/lib/emscripten/emcc -o conftest  -fvisibility=hidden -D__QNX__ -I/home/manuel/Projekte/unix-toolbox.js/modules/libgcrypt/src/../../libgpg-error/src/src/  conftest.c  >&5
-configure:14161: $? = 0
-configure:14161: result: yes
-configure:14161: checking for mmap
-configure:14161: /home/manuel/lib/emscripten/emcc -o conftest  -fvisibility=hidden -D__QNX__ -I/home/manuel/Projekte/unix-toolbox.js/modules/libgcrypt/src/../../libgpg-error/src/src/  conftest.c  >&5
-configure:14161: $? = 0
-configure:14161: result: yes
-configure:14161: checking for getpagesize
-configure:14161: /home/manuel/lib/emscripten/emcc -o conftest  -fvisibility=hidden -D__QNX__ -I/home/manuel/Projekte/unix-toolbox.js/modules/libgcrypt/src/../../libgpg-error/src/src/  conftest.c  >&5
-configure:14161: $? = 0
-configure:14161: result: yes
-configure:14161: checking for sysconf
-configure:14161: /home/manuel/lib/emscripten/emcc -o conftest  -fvisibility=hidden -D__QNX__ -I/home/manuel/Projekte/unix-toolbox.js/modules/libgcrypt/src/../../libgpg-error/src/src/  conftest.c  >&5
-configure:14161: $? = 0
-configure:14161: result: yes
-configure:14161: checking for waitpid
-configure:14161: /home/manuel/lib/emscripten/emcc -o conftest  -fvisibility=hidden -D__QNX__ -I/home/manuel/Projekte/unix-toolbox.js/modules/libgcrypt/src/../../libgpg-error/src/src/  conftest.c  >&5
-configure:14161: $? = 0
-configure:14161: result: yes
-configure:14161: checking for wait4
-configure:14161: /home/manuel/lib/emscripten/emcc -o conftest  -fvisibility=hidden -D__QNX__ -I/home/manuel/Projekte/unix-toolbox.js/modules/libgcrypt/src/../../libgpg-error/src/src/  conftest.c  >&5
-configure:14161: $? = 0
-configure:14161: result: yes
-configure:14175: checking for gettimeofday
-configure:14175: /home/manuel/lib/emscripten/emcc -o conftest  -fvisibility=hidden -D__QNX__ -I/home/manuel/Projekte/unix-toolbox.js/modules/libgcrypt/src/../../libgpg-error/src/src/  conftest.c  >&5
-configure:14175: $? = 0
-configure:14175: result: yes
-configure:14175: checking for getrusage
-configure:14175: /home/manuel/lib/emscripten/emcc -o conftest  -fvisibility=hidden -D__QNX__ -I/home/manuel/Projekte/unix-toolbox.js/modules/libgcrypt/src/../../libgpg-error/src/src/  conftest.c  >&5
-configure:14175: $? = 0
-configure:14175: result: yes
-configure:14175: checking for gethrtime
-configure:14175: /home/manuel/lib/emscripten/emcc -o conftest  -fvisibility=hidden -D__QNX__ -I/home/manuel/Projekte/unix-toolbox.js/modules/libgcrypt/src/../../libgpg-error/src/src/  conftest.c  >&5
-/tmp/conftest-RWAnbC.o: In function `main':
+configure:14163: $? = 0
+configure:14163: result: yes
+configure:14163: checking for rand
+configure:14163: /home/manuel/lib/emscripten/emcc -o conftest  -fvisibility=hidden -D__QNX__ -I/home/manuel/Projekte/unix-toolbox.js/modules/libgcrypt/src/../../libgpg-error/src/src/  conftest.c  >&5
+configure:14163: $? = 0
+configure:14163: result: yes
+configure:14163: checking for getpagesize
+configure:14163: /home/manuel/lib/emscripten/emcc -o conftest  -fvisibility=hidden -D__QNX__ -I/home/manuel/Projekte/unix-toolbox.js/modules/libgcrypt/src/../../libgpg-error/src/src/  conftest.c  >&5
+configure:14163: $? = 0
+configure:14163: result: yes
+configure:14163: checking for sysconf
+configure:14163: /home/manuel/lib/emscripten/emcc -o conftest  -fvisibility=hidden -D__QNX__ -I/home/manuel/Projekte/unix-toolbox.js/modules/libgcrypt/src/../../libgpg-error/src/src/  conftest.c  >&5
+configure:14163: $? = 0
+configure:14163: result: yes
+configure:14163: checking for waitpid
+configure:14163: /home/manuel/lib/emscripten/emcc -o conftest  -fvisibility=hidden -D__QNX__ -I/home/manuel/Projekte/unix-toolbox.js/modules/libgcrypt/src/../../libgpg-error/src/src/  conftest.c  >&5
+configure:14163: $? = 0
+configure:14163: result: yes
+configure:14163: checking for wait4
+configure:14163: /home/manuel/lib/emscripten/emcc -o conftest  -fvisibility=hidden -D__QNX__ -I/home/manuel/Projekte/unix-toolbox.js/modules/libgcrypt/src/../../libgpg-error/src/src/  conftest.c  >&5
+configure:14163: $? = 0
+configure:14163: result: yes
+configure:14177: checking for gettimeofday
+configure:14177: /home/manuel/lib/emscripten/emcc -o conftest  -fvisibility=hidden -D__QNX__ -I/home/manuel/Projekte/unix-toolbox.js/modules/libgcrypt/src/../../libgpg-error/src/src/  conftest.c  >&5
+configure:14177: $? = 0
+configure:14177: result: yes
+configure:14177: checking for getrusage
+configure:14177: /home/manuel/lib/emscripten/emcc -o conftest  -fvisibility=hidden -D__QNX__ -I/home/manuel/Projekte/unix-toolbox.js/modules/libgcrypt/src/../../libgpg-error/src/src/  conftest.c  >&5
+configure:14177: $? = 0
+configure:14177: result: yes
+configure:14177: checking for gethrtime
+configure:14177: /home/manuel/lib/emscripten/emcc -o conftest  -fvisibility=hidden -D__QNX__ -I/home/manuel/Projekte/unix-toolbox.js/modules/libgcrypt/src/../../libgpg-error/src/src/  conftest.c  >&5
+/tmp/conftest-rO53r4.o: In function `main':
 conftest.c:(.text+0xe): undefined reference to `gethrtime'
 clang: error: linker command failed with exit code 1 (use -v to see invocation)
-configure:14175: $? = 1
+configure:14177: $? = 1
 configure: failed program was:
 | /* confdefs.h */
 | #define PACKAGE_NAME "libgcrypt"
@@ -1899,10 +1891,8 @@ configure: failed program was:
 | #define HAVE_STRTOUL 1
 | #define HAVE_MEMMOVE 1
 | #define HAVE_ATEXIT 1
-| #define HAVE_RAISE 1
 | #define HAVE_STRERROR 1
 | #define HAVE_RAND 1
-| #define HAVE_MMAP 1
 | #define HAVE_GETPAGESIZE 1
 | #define HAVE_SYSCONF 1
 | #define HAVE_WAITPID 1
@@ -1948,58 +1938,162 @@ configure: failed program was:
 |   ;
 |   return 0;
 | }
-configure:14175: result: no
-configure:14175: checking for clock_gettime
-configure:14175: /home/manuel/lib/emscripten/emcc -o conftest  -fvisibility=hidden -D__QNX__ -I/home/manuel/Projekte/unix-toolbox.js/modules/libgcrypt/src/../../libgpg-error/src/src/  conftest.c  >&5
-configure:14175: $? = 0
-configure:14175: result: yes
-configure:14188: checking for fcntl
-configure:14188: /home/manuel/lib/emscripten/emcc -o conftest  -fvisibility=hidden -D__QNX__ -I/home/manuel/Projekte/unix-toolbox.js/modules/libgcrypt/src/../../libgpg-error/src/src/  conftest.c  >&5
-configure:14188: $? = 0
-configure:14188: result: yes
-configure:14188: checking for ftruncate
-configure:14188: /home/manuel/lib/emscripten/emcc -o conftest  -fvisibility=hidden -D__QNX__ -I/home/manuel/Projekte/unix-toolbox.js/modules/libgcrypt/src/../../libgpg-error/src/src/  conftest.c  >&5
-configure:14188: $? = 0
-configure:14188: result: yes
-configure:14421: checking for getpid
-configure:14421: /home/manuel/lib/emscripten/emcc -o conftest  -fvisibility=hidden -D__QNX__ -I/home/manuel/Projekte/unix-toolbox.js/modules/libgcrypt/src/../../libgpg-error/src/src/  conftest.c  >&5
-configure:14421: $? = 0
-configure:14421: result: yes
-configure:14421: checking for clock
-configure:14421: /home/manuel/lib/emscripten/emcc -o conftest  -fvisibility=hidden -D__QNX__ -I/home/manuel/Projekte/unix-toolbox.js/modules/libgcrypt/src/../../libgpg-error/src/src/  conftest.c  >&5
-configure:14421: $? = 0
-configure:14421: result: yes
-configure:14619: checking for random device
-configure:14622: result: has been disabled
-configure:14683: checking for _ prefix in compiled symbols
-configure:14693: /home/manuel/lib/emscripten/emcc -c  -fvisibility=hidden -D__QNX__ -I/home/manuel/Projekte/unix-toolbox.js/modules/libgcrypt/src/../../libgpg-error/src/src/ conftest.c >&5
+configure:14177: result: no
+configure:14177: checking for clock_gettime
+configure:14177: /home/manuel/lib/emscripten/emcc -o conftest  -fvisibility=hidden -D__QNX__ -I/home/manuel/Projekte/unix-toolbox.js/modules/libgcrypt/src/../../libgpg-error/src/src/  conftest.c  >&5
+configure:14177: $? = 0
+configure:14177: result: yes
+configure:14190: checking for fcntl
+configure:14190: /home/manuel/lib/emscripten/emcc -o conftest  -fvisibility=hidden -D__QNX__ -I/home/manuel/Projekte/unix-toolbox.js/modules/libgcrypt/src/../../libgpg-error/src/src/  conftest.c  >&5
+configure:14190: $? = 0
+configure:14190: result: yes
+configure:14190: checking for ftruncate
+configure:14190: /home/manuel/lib/emscripten/emcc -o conftest  -fvisibility=hidden -D__QNX__ -I/home/manuel/Projekte/unix-toolbox.js/modules/libgcrypt/src/../../libgpg-error/src/src/  conftest.c  >&5
+configure:14190: $? = 0
+configure:14190: result: yes
+configure:14216: checking sys/mman.h usability
+configure:14216: /home/manuel/lib/emscripten/emcc -c  -fvisibility=hidden -D__QNX__ -I/home/manuel/Projekte/unix-toolbox.js/modules/libgcrypt/src/../../libgpg-error/src/src/ conftest.c >&5
+configure:14216: $? = 0
+configure:14216: result: yes
+configure:14216: checking sys/mman.h presence
+configure:14216: /home/manuel/lib/emscripten/emcc -E -D__QNX__ -I/home/manuel/Projekte/unix-toolbox.js/modules/libgcrypt/src/../../libgpg-error/src/src/ conftest.c
+configure:14216: $? = 0
+configure:14216: result: yes
+configure:14216: checking for sys/mman.h
+configure:14216: result: yes
+configure:14228: checking for memlk in -lrt
+configure:14253: /home/manuel/lib/emscripten/emcc -o conftest  -fvisibility=hidden -D__QNX__ -I/home/manuel/Projekte/unix-toolbox.js/modules/libgcrypt/src/../../libgpg-error/src/src/  conftest.c -lrt   >&5
+/tmp/conftest-ce1zPW.o: In function `main':
+conftest.c:(.text+0xe): undefined reference to `memlk'
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+configure:14253: $? = 1
+configure: failed program was:
+| /* confdefs.h */
+| #define PACKAGE_NAME "libgcrypt"
+| #define PACKAGE_TARNAME "libgcrypt"
+| #define PACKAGE_VERSION "1.5.0"
+| #define PACKAGE_STRING "libgcrypt 1.5.0"
+| #define PACKAGE_BUGREPORT "bug-libgcrypt@gnupg.org"
+| #define PACKAGE_URL ""
+| #define PACKAGE "libgcrypt"
+| #define VERSION "1.5.0"
+| #define PACKAGE "libgcrypt"
+| #define VERSION "1.5.0"
+| #define STDC_HEADERS 1
+| #define HAVE_SYS_TYPES_H 1
+| #define HAVE_SYS_STAT_H 1
+| #define HAVE_STDLIB_H 1
+| #define HAVE_STRING_H 1
+| #define HAVE_MEMORY_H 1
+| #define HAVE_STRINGS_H 1
+| #define HAVE_INTTYPES_H 1
+| #define HAVE_STDINT_H 1
+| #define HAVE_UNISTD_H 1
+| #define __EXTENSIONS__ 1
+| #define _ALL_SOURCE 1
+| #define _GNU_SOURCE 1
+| #define _POSIX_PTHREAD_SEMANTICS 1
+| #define _TANDEM_SOURCE 1
+| #define HAVE_DLFCN_H 1
+| #define LT_OBJDIR ".libs/"
+| #define SIZEOF_UNSIGNED_SHORT 2
+| #define SIZEOF_UNSIGNED_INT 4
+| #define SIZEOF_UNSIGNED_LONG 4
+| #define SIZEOF_UNSIGNED_LONG_LONG 8
+| #define HAVE_UINTPTR_T 1
+| #define EGD_SOCKET_NAME ""
+| #define ENABLE_PADLOCK_SUPPORT 1
+| #define ENABLE_AESNI_SUPPORT 1
+| #define PRINTABLE_OS_NAME "GNU/Linux"
+| #define NAME_OF_DEV_RANDOM "/dev/random"
+| #define NAME_OF_DEV_URANDOM "/dev/urandom"
+| #define GPG_ERR_SOURCE_DEFAULT GPG_ERR_SOURCE_GCRYPT
+| #define STDC_HEADERS 1
+| #define HAVE_UNISTD_H 1
+| #define HAVE_SYS_SELECT_H 1
+| #define RETSIGTYPE void
+| #define HAVE_DECL_SYS_SIGLIST 0
+| #define HAVE_USHORT_TYPEDEF 1
+| #define HAVE_SYS_SOCKET_H 1
+| #define GCRY_USE_VISIBILITY 1
+| #define HAVE_VPRINTF 1
+| #define HAVE_STPCPY 1
+| #define HAVE_STRCASECMP 1
+| #define HAVE_STRTOUL 1
+| #define HAVE_MEMMOVE 1
+| #define HAVE_ATEXIT 1
+| #define HAVE_STRERROR 1
+| #define HAVE_RAND 1
+| #define HAVE_GETPAGESIZE 1
+| #define HAVE_SYSCONF 1
+| #define HAVE_WAITPID 1
+| #define HAVE_WAIT4 1
+| #define HAVE_GETTIMEOFDAY 1
+| #define HAVE_GETRUSAGE 1
+| #define HAVE_CLOCK_GETTIME 1
+| #define HAVE_FCNTL 1
+| #define HAVE_FTRUNCATE 1
+| #define HAVE_SYS_MMAN_H 1
+| /* end confdefs.h.  */
+| 
+| /* Override any GCC internal prototype to avoid an error.
+|    Use char because int might match the return type of a GCC
+|    builtin and then its argument prototype would still apply.  */
+| #ifdef __cplusplus
+| extern "C"
+| #endif
+| char memlk ();
+| int
+| main ()
+| {
+| return memlk ();
+|   ;
+|   return 0;
+| }
+configure:14262: result: no
+configure:14273: checking whether mlock is in sys/mman.h
+configure:14307: /home/manuel/lib/emscripten/emcc -o conftest  -fvisibility=hidden -D__QNX__ -I/home/manuel/Projekte/unix-toolbox.js/modules/libgcrypt/src/../../libgpg-error/src/src/  conftest.c  >&5
+configure:14307: $? = 0
+configure:14315: result: no
+configure:14424: checking for getpid
+configure:14424: /home/manuel/lib/emscripten/emcc -o conftest  -fvisibility=hidden -D__QNX__ -I/home/manuel/Projekte/unix-toolbox.js/modules/libgcrypt/src/../../libgpg-error/src/src/  conftest.c  >&5
+configure:14424: $? = 0
+configure:14424: result: yes
+configure:14424: checking for clock
+configure:14424: /home/manuel/lib/emscripten/emcc -o conftest  -fvisibility=hidden -D__QNX__ -I/home/manuel/Projekte/unix-toolbox.js/modules/libgcrypt/src/../../libgpg-error/src/src/  conftest.c  >&5
+configure:14424: $? = 0
+configure:14424: result: yes
+configure:14622: checking for random device
+configure:14625: result: has been disabled
+configure:14686: checking for _ prefix in compiled symbols
+configure:14696: /home/manuel/lib/emscripten/emcc -c  -fvisibility=hidden -D__QNX__ -I/home/manuel/Projekte/unix-toolbox.js/modules/libgcrypt/src/../../libgpg-error/src/src/ conftest.c >&5
 conftest.c:2:18: warning: expression result unused [-Wunused-value]
       int main(){nm_test_func;return 0;}
                  ^~~~~~~~~~~~
 1 warning generated.
-configure:14696: $? = 0
-configure:14700: /usr/bin/nm -B conftest.o \| sed -n -e 's/^.*[	 ]\([ABCDGIRSTW][ABCDGIRSTW]*\)[	 ][	 ]*\([_A-Za-z][_A-Za-z0-9]*\)$/\1 \2 \2/p' \| cut -d \' \' -f 2 \> conftest.nm
-configure:14703: $? = 0
+configure:14699: $? = 0
+configure:14703: /usr/bin/nm -B conftest.o \| sed -n -e 's/^.*[	 ]\([ABCDGIRSTW][ABCDGIRSTW]*\)[	 ][	 ]*\([_A-Za-z][_A-Za-z0-9]*\)$/\1 \2 \2/p' \| cut -d \' \' -f 2 \> conftest.nm
+configure:14706: $? = 0
 configure: cannot find nm_test_func in conftest.nm
-configure:14730: result: no
-configure:14745: checking for mpi assembler functions
-configure:14752: result: done
-configure:15012: checking whether non excutable stack support is requested
-configure:15021: result: yes
-configure:15024: checking whether assembler supports --noexecstack option
-configure:15034: /home/manuel/lib/emscripten/emcc  -fvisibility=hidden -Wall -D__QNX__ -I/home/manuel/Projekte/unix-toolbox.js/modules/libgcrypt/src/../../libgpg-error/src/src/
+configure:14733: result: no
+configure:14748: checking for mpi assembler functions
+configure:14755: result: done
+configure:15015: checking whether non excutable stack support is requested
+configure:15024: result: yes
+configure:15027: checking whether assembler supports --noexecstack option
+configure:15037: /home/manuel/lib/emscripten/emcc  -fvisibility=hidden -Wall -D__QNX__ -I/home/manuel/Projekte/unix-toolbox.js/modules/libgcrypt/src/../../libgpg-error/src/src/
                      -S -o conftest.s conftest.c >/dev/null
-configure:15037: $? = 0
-configure:15042: /home/manuel/lib/emscripten/emcc  -D__QNX__ -I/home/manuel/Projekte/unix-toolbox.js/modules/libgcrypt/src/../../libgpg-error/src/src/ -Wa,--noexecstack
+configure:15040: $? = 0
+configure:15045: /home/manuel/lib/emscripten/emcc  -D__QNX__ -I/home/manuel/Projekte/unix-toolbox.js/modules/libgcrypt/src/../../libgpg-error/src/src/ -Wa,--noexecstack
                        -c -o conftest.o conftest.s >/dev/null
 emcc: warning: -I or -L of an absolute path encountered. If this is to a local system header/library, it may cause problems (local system files make sense for compiling natively on your system, but not necessarily to JavaScript)
 Traceback (most recent call last):
   File "/home/manuel/lib/emscripten/emcc", line 942, in <module>
     assert has_source_inputs, 'Must have source code inputs to use -c'
 AssertionError: Must have source code inputs to use -c
-configure:15045: $? = 1
-configure:15054: result: no
-configure:15837: creating ./config.status
+configure:15048: $? = 1
+configure:15057: result: no
+configure:15840: creating ./config.status
 
 ## ---------------- ##
 ## Cache variables. ##
@@ -2044,8 +2138,7 @@ ac_cv_func_getpid=yes
 ac_cv_func_getrusage=yes
 ac_cv_func_gettimeofday=yes
 ac_cv_func_memmove=yes
-ac_cv_func_mmap=yes
-ac_cv_func_raise=yes
+ac_cv_func_mlock=no
 ac_cv_func_rand=yes
 ac_cv_func_stpcpy=yes
 ac_cv_func_strcasecmp=yes
@@ -2067,6 +2160,7 @@ ac_cv_header_stdint_h=yes
 ac_cv_header_stdlib_h=yes
 ac_cv_header_string_h=yes
 ac_cv_header_strings_h=yes
+ac_cv_header_sys_mman_h=yes
 ac_cv_header_sys_msg_h=no
 ac_cv_header_sys_select_h=yes
 ac_cv_header_sys_socket_h=yes
@@ -2074,6 +2168,7 @@ ac_cv_header_sys_stat_h=yes
 ac_cv_header_sys_types_h=yes
 ac_cv_header_unistd_h=yes
 ac_cv_host=i686-pc-linux-gnu
+ac_cv_lib_rt_memlk=no
 ac_cv_mpi_sflags=
 ac_cv_objext=o
 ac_cv_path_EGREP='/bin/grep -E'
@@ -2114,6 +2209,7 @@ gcry_cv_broken_alias_attribute=no
 gcry_cv_broken_visibility_attribute=no
 gcry_cv_gcc_has_f_visibility=yes
 gcry_cv_visibility_attribute=yes
+gnupg_cv_mlock_is_in_sys_mman=no
 gnupg_cv_typedef_byte=no
 gnupg_cv_typedef_u16=no
 gnupg_cv_typedef_u32=no
@@ -2403,10 +2499,8 @@ target_alias=''
 #define HAVE_STRTOUL 1
 #define HAVE_MEMMOVE 1
 #define HAVE_ATEXIT 1
-#define HAVE_RAISE 1
 #define HAVE_STRERROR 1
 #define HAVE_RAND 1
-#define HAVE_MMAP 1
 #define HAVE_GETPAGESIZE 1
 #define HAVE_SYSCONF 1
 #define HAVE_WAITPID 1
@@ -2416,6 +2510,7 @@ target_alias=''
 #define HAVE_CLOCK_GETTIME 1
 #define HAVE_FCNTL 1
 #define HAVE_FTRUNCATE 1
+#define HAVE_SYS_MMAN_H 1
 #define HAVE_GETPID 1
 #define HAVE_CLOCK 1
 #define USE_ARCFOUR 1
@@ -2466,27 +2561,27 @@ generated by GNU Autoconf 2.64.  Invocation command line was
 
 on canttouchthis
 
-config.status:1298: creating Makefile
-config.status:1298: creating m4/Makefile
-config.status:1298: creating compat/Makefile
-config.status:1298: creating mpi/Makefile
-config.status:1298: creating cipher/Makefile
-config.status:1298: creating random/Makefile
-config.status:1298: creating doc/Makefile
-config.status:1298: creating src/Makefile
-config.status:1298: creating src/gcrypt.h
-config.status:1298: creating src/libgcrypt-config
-config.status:1298: creating src/versioninfo.rc
-config.status:1298: creating tests/Makefile
-config.status:1298: creating config.h
-config.status:1530: linking mpi/generic/mpih-add1.c to mpi/mpih-add1.c
-config.status:1530: linking mpi/generic/mpih-sub1.c to mpi/mpih-sub1.c
-config.status:1530: linking mpi/generic/mpih-mul1.c to mpi/mpih-mul1.c
-config.status:1530: linking mpi/generic/mpih-mul2.c to mpi/mpih-mul2.c
-config.status:1530: linking mpi/generic/mpih-mul3.c to mpi/mpih-mul3.c
-config.status:1530: linking mpi/generic/mpih-lshift.c to mpi/mpih-lshift.c
-config.status:1530: linking mpi/generic/mpih-rshift.c to mpi/mpih-rshift.c
-config.status:1530: linking mpi/generic/mpi-asm-defs.h to mpi/mpi-asm-defs.h
-config.status:1549: executing depfiles commands
-config.status:1549: executing libtool commands
-config.status:1549: executing gcrypt-conf commands
+config.status:1297: creating Makefile
+config.status:1297: creating m4/Makefile
+config.status:1297: creating compat/Makefile
+config.status:1297: creating mpi/Makefile
+config.status:1297: creating cipher/Makefile
+config.status:1297: creating random/Makefile
+config.status:1297: creating doc/Makefile
+config.status:1297: creating src/Makefile
+config.status:1297: creating src/gcrypt.h
+config.status:1297: creating src/libgcrypt-config
+config.status:1297: creating src/versioninfo.rc
+config.status:1297: creating tests/Makefile
+config.status:1297: creating config.h
+config.status:1529: linking mpi/generic/mpih-add1.c to mpi/mpih-add1.c
+config.status:1529: linking mpi/generic/mpih-sub1.c to mpi/mpih-sub1.c
+config.status:1529: linking mpi/generic/mpih-mul1.c to mpi/mpih-mul1.c
+config.status:1529: linking mpi/generic/mpih-mul2.c to mpi/mpih-mul2.c
+config.status:1529: linking mpi/generic/mpih-mul3.c to mpi/mpih-mul3.c
+config.status:1529: linking mpi/generic/mpih-lshift.c to mpi/mpih-lshift.c
+config.status:1529: linking mpi/generic/mpih-rshift.c to mpi/mpih-rshift.c
+config.status:1529: linking mpi/generic/mpi-asm-defs.h to mpi/mpi-asm-defs.h
+config.status:1548: executing depfiles commands
+config.status:1548: executing libtool commands
+config.status:1548: executing gcrypt-conf commands

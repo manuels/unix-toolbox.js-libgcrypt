@@ -109,13 +109,13 @@
 /* #undef HAVE_MLOCK */
 
 /* Define to 1 if you have the `mmap' function. */
-#define HAVE_MMAP 1
+/* #undef HAVE_MMAP */
 
 /* Defined if the GNU Pth is available */
 /* #undef HAVE_PTH */
 
 /* Define to 1 if you have the `raise' function. */
-#define HAVE_RAISE 1
+/* #undef HAVE_RAISE */
 
 /* Define to 1 if you have the `rand' function. */
 #define HAVE_RAND 1
@@ -157,7 +157,7 @@
 /* #undef HAVE_SYS_CAPABILITY_H */
 
 /* Define to 1 if you have the <sys/mman.h> header file. */
-/* #undef HAVE_SYS_MMAN_H */
+#define HAVE_SYS_MMAN_H 1
 
 /* Define to 1 if you have the <sys/msg.h> header file. */
 /* #undef HAVE_SYS_MSG_H */

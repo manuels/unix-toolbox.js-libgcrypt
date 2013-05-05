@@ -14141,7 +14141,8 @@ fi
 done
 
 # We have replacements for these in src/g10lib.h
-for ac_func in strtoul memmove stricmp atexit raise
+#for ac_func in strtoul memmove stricmp atexit raise
+for ac_func in strtoul memmove stricmp atexit
 do :
   as_ac_var=`$as_echo "ac_cv_func_$ac_func" | $as_tr_sh`
 ac_fn_c_check_func "$LINENO" "$ac_func" "$as_ac_var"
@@ -14155,7 +14156,8 @@ fi
 done
 
 # Other checks
-for ac_func in strerror rand mmap getpagesize sysconf waitpid wait4
+#for ac_func in strerror rand mmap getpagesize sysconf waitpid wait4
+for ac_func in strerror rand getpagesize sysconf waitpid wait4
 do :
   as_ac_var=`$as_echo "ac_cv_func_$ac_func" | $as_tr_sh`
 ac_fn_c_check_func "$LINENO" "$ac_func" "$as_ac_var"
@@ -14206,6 +14208,7 @@ done
 #
 #fi
 #done
+ac_cv_func_mlock=no
 
     if test "$ac_cv_func_mlock" = "no"; then
         for ac_header in sys/mman.h
@@ -14302,7 +14305,7 @@ mlock(&i, 4);
 }
 _ACEOF
 if ac_fn_c_try_link "$LINENO"; then :
-  gnupg_cv_mlock_is_in_sys_mman=yes
+  gnupg_cv_mlock_is_in_sys_mman=no
 else
   gnupg_cv_mlock_is_in_sys_mman=no
 fi
