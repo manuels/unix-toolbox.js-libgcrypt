@@ -19,6 +19,7 @@
    02111-1307, USA.  */
 
 #ifndef ATH_H
+#  include <sys/time.h>
 #define ATH_H
 
 #include <config.h>
