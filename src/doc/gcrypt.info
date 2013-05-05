@@ -1,5 +1,4 @@
-This is /home/wk/w/libgcrypt/doc/gcrypt.info, produced by makeinfo
-version 4.13 from /home/wk/w/libgcrypt/doc/gcrypt.texi.
+This is gcrypt.info, produced by makeinfo version 4.13 from gcrypt.texi.
 
 This manual is for Libgcrypt (version 1.5.0, 29 June 2011), which is
 GNU's library of cryptographic building blocks.
@@ -21,108 +20,108 @@ END-INFO-DIR-ENTRY
 
 
 Indirect:
-gcrypt.info-1: 832
+gcrypt.info-1: 782
 
 Tag Table:
 (Indirect)
-Node: Top832
-Node: Introduction3123
-Node: Getting Started3495
-Node: Features4376
-Node: Overview5160
-Node: Preparation5791
-Node: Header6648
-Node: Building sources7719
-Node: Building sources using Automake9633
-Node: Initializing the library10815
-Ref: sample-use-suspend-secmem13990
-Ref: sample-use-resume-secmem14610
-Node: Multi-Threading15506
-Ref: Multi-Threading-Footnote-120134
-Node: Enabling FIPS mode20542
-Node: Generalities22408
-Node: Controlling the library22733
-Node: Modules35470
-Node: Error Handling36249
-Node: Error Values38772
-Node: Error Sources43712
-Node: Error Codes45983
-Node: Error Strings49468
-Node: Handler Functions50651
-Node: Progress handler51210
-Node: Allocation handler53206
-Node: Error handler54757
-Node: Logging handler56324
-Node: Symmetric cryptography56916
-Node: Available ciphers57721
-Node: Cipher modules60228
-Node: Available cipher modes64841
-Node: Working with cipher handles66516
-Node: General cipher functions74831
-Node: Public Key cryptography77349
-Node: Available algorithms78264
-Node: Used S-expressions78613
-Node: RSA key parameters79725
-Node: DSA key parameters81000
-Node: ECC key parameters81658
-Node: Public key modules83423
-Node: Cryptographic Functions89093
-Node: General public-key related Functions96945
-Node: AC Interface109262
-Node: Available asymmetric algorithms110397
-Node: Working with sets of data111066
-Node: Working with IO objects115568
-Node: Working with handles118288
-Node: Working with keys119235
-Node: Using cryptographic functions123317
-Node: Handle-independent functions130224
-Node: Hashing130972
-Node: Available hash algorithms131763
-Node: Hash algorithm modules135212
-Node: Working with hash algorithms139149
-Node: Key Derivation150451
-Node: Random Numbers152520
-Node: Quality of random numbers152801
-Node: Retrieving random numbers153485
-Node: S-expressions154969
-Node: Data types for S-expressions155613
-Node: Working with S-expressions155939
-Node: MPI library165835
-Node: Data types166793
-Node: Basic functions166987
-Node: MPI formats169055
-Node: Calculations171938
-Node: Comparisons174192
-Node: Bit manipulations175067
-Node: Miscellaneous176382
-Node: Prime numbers178351
-Node: Generation178621
-Node: Checking179905
-Node: Utilities180318
-Node: Memory allocation180511
-Node: Architecture181838
-Ref: fig:subsystems183358
-Ref: Architecture-Footnote-1184443
-Ref: Architecture-Footnote-2184505
-Node: Public-Key Subsystem Architecture184589
-Node: Symmetric Encryption Subsystem Architecture187530
-Node: Hashing and MACing Subsystem Architecture188977
-Node: Multi-Precision-Integer Subsystem Architecture190901
-Node: Prime-Number-Generator Subsystem Architecture192342
-Ref: Prime-Number-Generator Subsystem Architecture-Footnote-1194273
-Node: Random-Number Subsystem Architecture194560
-Node: CSPRNG Description197049
-Ref: CSPRNG Description-Footnote-1198611
-Node: FIPS PRNG Description198734
-Node: Self-Tests200869
-Node: FIPS Mode212561
-Ref: fig:fips-fsm216541
-Ref: tbl:fips-states216643
-Ref: tbl:fips-state-transitions217896
-Node: Library Copying221510
-Node: Copying249628
-Node: Figures and Tables268802
-Node: Concept Index269212
-Node: Function and Data Index274915
+Node: Top782
+Node: Introduction3073
+Node: Getting Started3445
+Node: Features4326
+Node: Overview5110
+Node: Preparation5741
+Node: Header6598
+Node: Building sources7669
+Node: Building sources using Automake9583
+Node: Initializing the library10765
+Ref: sample-use-suspend-secmem13940
+Ref: sample-use-resume-secmem14560
+Node: Multi-Threading15456
+Ref: Multi-Threading-Footnote-120084
+Node: Enabling FIPS mode20492
+Node: Generalities22358
+Node: Controlling the library22683
+Node: Modules35420
+Node: Error Handling36199
+Node: Error Values38722
+Node: Error Sources43662
+Node: Error Codes45933
+Node: Error Strings49418
+Node: Handler Functions50601
+Node: Progress handler51160
+Node: Allocation handler53156
+Node: Error handler54707
+Node: Logging handler56274
+Node: Symmetric cryptography56866
+Node: Available ciphers57671
+Node: Cipher modules60178
+Node: Available cipher modes64791
+Node: Working with cipher handles66466
+Node: General cipher functions74781
+Node: Public Key cryptography77299
+Node: Available algorithms78214
+Node: Used S-expressions78563
+Node: RSA key parameters79675
+Node: DSA key parameters80950
+Node: ECC key parameters81608
+Node: Public key modules83373
+Node: Cryptographic Functions89043
+Node: General public-key related Functions96895
+Node: AC Interface109212
+Node: Available asymmetric algorithms110347
+Node: Working with sets of data111016
+Node: Working with IO objects115518
+Node: Working with handles118238
+Node: Working with keys119185
+Node: Using cryptographic functions123267
+Node: Handle-independent functions130174
+Node: Hashing130922
+Node: Available hash algorithms131713
+Node: Hash algorithm modules135162
+Node: Working with hash algorithms139099
+Node: Key Derivation150401
+Node: Random Numbers152470
+Node: Quality of random numbers152751
+Node: Retrieving random numbers153435
+Node: S-expressions154919
+Node: Data types for S-expressions155563
+Node: Working with S-expressions155889
+Node: MPI library165785
+Node: Data types166743
+Node: Basic functions166937
+Node: MPI formats169005
+Node: Calculations171888
+Node: Comparisons174142
+Node: Bit manipulations175017
+Node: Miscellaneous176332
+Node: Prime numbers178301
+Node: Generation178571
+Node: Checking179855
+Node: Utilities180268
+Node: Memory allocation180461
+Node: Architecture181788
+Ref: fig:subsystems183308
+Ref: Architecture-Footnote-1184393
+Ref: Architecture-Footnote-2184455
+Node: Public-Key Subsystem Architecture184539
+Node: Symmetric Encryption Subsystem Architecture187480
+Node: Hashing and MACing Subsystem Architecture188927
+Node: Multi-Precision-Integer Subsystem Architecture190851
+Node: Prime-Number-Generator Subsystem Architecture192292
+Ref: Prime-Number-Generator Subsystem Architecture-Footnote-1194223
+Node: Random-Number Subsystem Architecture194510
+Node: CSPRNG Description196999
+Ref: CSPRNG Description-Footnote-1198561
+Node: FIPS PRNG Description198684
+Node: Self-Tests200819
+Node: FIPS Mode212507
+Ref: fig:fips-fsm216483
+Ref: tbl:fips-states216585
+Ref: tbl:fips-state-transitions217838
+Node: Library Copying221452
+Node: Copying249570
+Node: Figures and Tables268744
+Node: Concept Index269154
+Node: Function and Data Index274857
 
 End Tag Table

@@ -1,5 +1,4 @@
-This is /home/wk/w/libgcrypt/doc/gcrypt.info, produced by makeinfo
-version 4.13 from /home/wk/w/libgcrypt/doc/gcrypt.texi.
+This is gcrypt.info, produced by makeinfo version 4.13 from gcrypt.texi.
 
 This manual is for Libgcrypt (version 1.5.0, 29 June 2011), which is
 GNU's library of cryptographic building blocks.
@@ -4928,8 +4927,8 @@ incremented on each use.
 
 File: gcrypt.info,  Node: Self-Tests,  Next: FIPS Mode,  Prev: Architecture,  Up: Top
 
-Appendix A Description of the Self-Tests
-****************************************
+Anhang A Description of the Self-Tests
+**************************************
 
 In addition to the build time regression test suite, Libgcrypt
 implements self-tests to be performed at runtime.  Which self-tests are
@@ -5255,8 +5254,8 @@ HMAC SHA-512
 
 File: gcrypt.info,  Node: FIPS Mode,  Next: Library Copying,  Prev: Self-Tests,  Up: Top
 
-Appendix B Description of the FIPS Mode
-***************************************
+Anhang B Description of the FIPS Mode
+*************************************
 
 This appendix gives detailed information pertaining to the FIPS mode.
 In particular, the changes to the standard mode and the finite state
