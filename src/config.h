@@ -57,7 +57,7 @@
 #define HAVE_DECL_SYS_SIGLIST 0
 
 /* defined if the system supports a random device */
-/* #undef HAVE_DEV_RANDOM */
+#define HAVE_DEV_RANDOM 1
 
 /* Define to 1 if you have the <dlfcn.h> header file. */
 #define HAVE_DLFCN_H 1
@@ -338,13 +338,13 @@
 #define USE_RMD160 1
 
 /* Defined if the EGD based RNG should be used. */
-#define USE_RNDEGD 1
+/* #undef USE_RNDEGD */
 
 /* Defined if the /dev/random RNG should be used. */
 #define USE_RNDLINUX 1
 
 /* Defined if the default Unix RNG should be used. */
-#define USE_RNDUNIX 1
+/* #undef USE_RNDUNIX */
 
 /* Defined if the Windows specific RNG should be used. */
 /* #undef USE_RNDW32 */

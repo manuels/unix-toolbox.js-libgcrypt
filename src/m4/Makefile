@@ -70,7 +70,7 @@ CCASFLAGS =
 CCDEPMODE = depmode=gcc3
 CFLAGS =  -fvisibility=hidden -Wall
 CPP = /home/manuel/lib/emscripten/emcc -E
-CPPFLAGS = -D__QNX__ -I/home/manuel/Projekte/unix-toolbox.js/modules/libgcrypt/src/../../libgpg-error/src/src/
+CPPFLAGS = -I/home/manuel/Projekte/unix-toolbox.js/modules/gnupg/libgcrypt/src/../../libgcrypt/src/src/ -I/home/manuel/Projekte/unix-toolbox.js/modules/gnupg/libgcrypt/src/../../libgpg-error/src/src/ -I/home/manuel/Projekte/unix-toolbox.js/modules/gnupg/libgcrypt/src/../../libassuan/src/ -I/home/manuel/Projekte/unix-toolbox.js/modules/gnupg/libgcrypt/src/../../libksba/src/src/
 CYGPATH_W = echo
 DEFS = -DHAVE_CONFIG_H
 DEPDIR = .deps
@@ -88,7 +88,7 @@ FGREP = /bin/grep -F
 GCRYPT_CIPHERS =  arcfour.lo blowfish.lo cast5.lo des.lo rijndael.lo twofish.lo serpent.lo rfc2268.lo seed.lo camellia.lo camellia-glue.lo
 GCRYPT_DIGESTS =  crc.lo md4.lo md5.lo sha256.lo sha512.lo tiger.lo whirlpool.lo rmd160.lo sha1.lo
 GCRYPT_PUBKEY_CIPHERS =  dsa.lo rsa.lo elgamal.lo ecc.lo
-GCRYPT_RANDOM =  rndlinux.lo rndunix.lo rndegd.lo
+GCRYPT_RANDOM =  rndlinux.lo
 GPG_ERROR_CFLAGS = 
 GPG_ERROR_CONFIG = /usr/bin/gpg-error-config
 GPG_ERROR_LIBS = -L/usr/lib/i386-linux-gnu -lgpg-error

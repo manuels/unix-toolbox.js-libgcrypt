@@ -23,7 +23,7 @@ des.lo: des.c ../config.h \
   /home/manuel/lib/emscripten/system/include/libc/stdlib.h \
   /home/manuel/lib/emscripten/system/include/libc/machine/stdlib.h \
   /home/manuel/lib/emscripten/system/include/libc/alloca.h \
-  /home/manuel/Projekte/unix-toolbox.js/modules/libgcrypt/src/../../libgpg-error/src/src/gpg-error.h \
+  /home/manuel/Projekte/unix-toolbox.js/modules/gnupg/libgcrypt/src/../../libgpg-error/src/src/gpg-error.h \
   /home/manuel/lib/emscripten/system/include/sys/socket.h \
   /home/manuel/lib/emscripten/system/include/netdb.h \
   /home/manuel/lib/emscripten/system/include/sys/select.h \
@@ -92,7 +92,7 @@ des.lo: des.c ../config.h \
 
 /home/manuel/lib/emscripten/system/include/libc/alloca.h:
 
-/home/manuel/Projekte/unix-toolbox.js/modules/libgcrypt/src/../../libgpg-error/src/src/gpg-error.h:
+/home/manuel/Projekte/unix-toolbox.js/modules/gnupg/libgcrypt/src/../../libgpg-error/src/src/gpg-error.h:
 
 /home/manuel/lib/emscripten/system/include/sys/socket.h:
 

@@ -41,7 +41,7 @@ libgcrypt_la-secmem.lo: secmem.c config.h \
   /home/manuel/lib/emscripten/system/include/sys/socket.h \
   /home/manuel/lib/emscripten/system/include/netdb.h \
   /home/manuel/lib/emscripten/system/include/sys/uio.h \
-  /home/manuel/Projekte/unix-toolbox.js/modules/libgcrypt/src/../../libgpg-error/src/src/gpg-error.h \
+  /home/manuel/Projekte/unix-toolbox.js/modules/gnupg/libgcrypt/src/../../libgpg-error/src/src/gpg-error.h \
   g10lib.h visibility.h gcrypt.h gcrypt-module.h types.h \
   ../compat/libcompat.h secmem.h
 
@@ -133,7 +133,7 @@ ath.h:
 
 /home/manuel/lib/emscripten/system/include/sys/uio.h:
 
-/home/manuel/Projekte/unix-toolbox.js/modules/libgcrypt/src/../../libgpg-error/src/src/gpg-error.h:
+/home/manuel/Projekte/unix-toolbox.js/modules/gnupg/libgcrypt/src/../../libgpg-error/src/src/gpg-error.h:
 
 g10lib.h:
 

@@ -23,7 +23,7 @@ compat.lo: compat.c ../config.h ../src/g10lib.h \
   /home/manuel/lib/emscripten/system/include/libc/alloca.h \
   /home/manuel/lib/emscripten/system/include/libc/string.h \
   /home/manuel/lib/emscripten/system/include/libc/sys/string.h \
-  /home/manuel/Projekte/unix-toolbox.js/modules/libgcrypt/src/../../libgpg-error/src/src/gpg-error.h \
+  /home/manuel/Projekte/unix-toolbox.js/modules/gnupg/libgcrypt/src/../../libgpg-error/src/src/gpg-error.h \
   /home/manuel/lib/emscripten/system/include/sys/socket.h \
   /home/manuel/lib/emscripten/system/include/netdb.h \
   /home/manuel/lib/emscripten/system/include/sys/select.h \
@@ -89,7 +89,7 @@ compat.lo: compat.c ../config.h ../src/g10lib.h \
 
 /home/manuel/lib/emscripten/system/include/libc/sys/string.h:
 
-/home/manuel/Projekte/unix-toolbox.js/modules/libgcrypt/src/../../libgpg-error/src/src/gpg-error.h:
+/home/manuel/Projekte/unix-toolbox.js/modules/gnupg/libgcrypt/src/../../libgpg-error/src/src/gpg-error.h:
 
 /home/manuel/lib/emscripten/system/include/sys/socket.h:
 
